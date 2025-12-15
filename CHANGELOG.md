@@ -20,3 +20,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 [0.1.0]: https://github.com/multinestmedia/.github/releases/tag/v0.1.0
 
+## [0.1.1] - 2025-12-15
+
+### Added
+- README for this repo
+### Changed
+- Moved issue templates and PR template into `.github` dir
+- Moved README into `profile` dir
+
+[0.1.1]: https://github.com/multinestmedia/.github/releases/tag/v0.1.1
