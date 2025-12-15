@@ -1,72 +1,66 @@
-# Multinest Media
+# .github Repository
 
-**Multinest Media** is a multi-disciplinary digital company building and operating
-software products, data-driven applications, and technology-enabled services,
-with an emphasis on clarity, automation, and thoughtful design.
+This repository contains organization-level configuration files for the **Multinest Media** GitHub organization.
 
 ---
 
-## What We Build
+## Purpose
 
-Our organization hosts a collection of independent and occassionally related projects, including:
+GitHub automatically applies files in this repository across all repositories in the organization that don't have their own versions. This provides centralized, consistent defaults for:
 
-- 📊 **Productivity & analytics applications**
-- 🧩 **Internal tools and shared libraries**
-- 🌐 **Web and mobile platforms**
-- 📷 **Media and data capture tooling**
-- 🔐 **Security-focused utilities and research projects**
-
-Each repository is self-contained and documented individually.
-
-> Not all projects operated by Multinest Media are publicly available on GitHub.
+- Community health files
+- Issue and pull request templates
+- Organization profile content
 
 ---
 
-## Featured Project
+## Contents
 
-- **AttraFlow** – A data-driven application focused on tracking, visualizing,
-  and understanding personal attractions.
+### Community Health Files
 
----
+- **`CODE_OF_CONDUCT.md`** – Standards for community participation and enforcement policies
+- **`CONTRIBUTING.md`** – Guidelines for external contributions and eligibility requirements
+- **`SECURITY.md`** – Vulnerability reporting process and security support policy
 
-## Repository Status
+These files are automatically surfaced by GitHub in repositories that don't define their own versions.
 
-Repositories in this organization may be:
+### Templates
 
-- 🚧 In active development
-- 🧪 Experimental or exploratory
-- ✅ Production-ready
-- 🔒 Private or restricted
+- **`pull_request_template.md`** – Default template for pull request descriptions
+- **`ISSUE_TEMPLATE/bug_report.yml`** – Structured form for bug reports
+- **`ISSUE_TEMPLATE/feature_request.yml`** – Structured form for feature requests
 
-Refer to individual repository READMEs for intended use, maturity,
-and support expectations.
+### Profile
 
----
-
-## Open Source & Contributions
-
-Some projects may be open to community use or contribution.
-
-If a repository accepts external contributions, it will include:
-- A `LICENSE`
-- A `CONTRIBUTING.md`
-- Clear issue and pull request guidelines
-
-Unmarked repositories should be considered internal or closed-source by default.
+- **`profile/README.md`** – Organization profile content displayed at `github.com/multinestmedia`
 
 ---
 
-## Security & Responsible Disclosure
+## How It Works
 
-If you discover a security issue in any public repository,
-please follow responsible disclosure practices.
+When contributors interact with repositories in this organization:
 
-📧 Contact: security@multinestmedia.com
+1. GitHub checks if the specific repository has its own community health files
+2. If not found, GitHub falls back to the files in this `.github` repository
+3. Templates and guidelines are automatically applied where appropriate
+
+Individual repositories can override these defaults by including their own versions.
 
 ---
 
-## Learn More
+## Maintenance
 
-🌐 Website: [multinestmedia.com](multinestmedia.com)
+This repository is maintained by Multinest Media.
 
-📬 Contact: hello@multinestmedia.com
+Changes to these files affect the default behavior across all organization repositories. Updates should be:
+- Reviewed carefully
+- Tested for clarity and accuracy
+- Documented in the `CHANGELOG.md`
+
+---
+
+## Resources
+
+- [GitHub Community Health Files Documentation](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file)
+- [Issue and Pull Request Templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests)
+
